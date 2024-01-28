@@ -6,3 +6,6 @@ some stuff is needed
 [![LICENSE](https://img.shields.io/github/license/KHiplyte/sem.svg?style=flat-square)](https://github.com/KHiplyte/sem/blob/master/LICENSE)
 
 [![Releases](https://img.shields.io/github/release/KHiplyte/sem/all.svg?style=flat-square)](https://github.com/KHiplyte/sem/releases)
+
+# Software Engineering Methods
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/KHiplyte/sem/main.yml/Develop?style=flat-square)
