@@ -9,3 +9,5 @@ some stuff is needed
 
 # Software Engineering Methods
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/KHiplyte/sem/main.yml/Develop?style=flat-square)
+
+[![codecov](https://codecov.io/gh/KHiplyte/sem/graph/badge.svg?token=Q1Q24DIO8T)](https://codecov.io/gh/KHiplyte/sem)
