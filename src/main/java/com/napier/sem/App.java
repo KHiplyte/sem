@@ -19,6 +19,7 @@ public class App
 
         // Get Employee
         Employee emp = a.getEmployee(255530);
+
         // Display results
         a.displayEmployee(emp);
 
