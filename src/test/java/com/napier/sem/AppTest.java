@@ -2,11 +2,8 @@ package com.napier.sem;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
 
 import java.util.ArrayList;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest
 {
@@ -41,9 +38,20 @@ public class AppTest
         emp.last_name = "Garigliano";
         emp.title = "Leader";
         emp.salary = 57499;
-        emp.dept_name = "Development";
-        emp.manager = "LeonDasSarma";
+        //emp.dept = "Development";
+       // emp.manager = "LeonDasSarma";
         employees.add(emp);
         app.displayEmployee(emp);
     }
+    @Test
+    public void printSalariesByDepartment()
+    {
+    ArrayList<Employee> employeesDep = new ArrayList<Employee>();
+    Employee emp = new Employee();
+    emp.emp_no = 10002;
+    emp.first_name = "Bezalel";
+    emp.last_name = "Simmel";
+    emp.salary = 72527;
+    employeesDep.add(emp);
+}
 }
